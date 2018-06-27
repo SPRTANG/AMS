@@ -15,7 +15,8 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: 'b366cad3cb29bb'
   password: "9dfdd34f"
-  host: us-cdbr-iron-east-04.cleardb.net
+  host: 'us-cdbr-iron-east-04.cleardb.net'
+  port: 3306
 
 development:
   <<: *default
