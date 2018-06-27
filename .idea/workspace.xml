@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4e69c74-3deb-4a32-a4d4-a18289e5f65f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/assignments/_assignment.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/assignments/_check_stats.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/assignments/_check_upcoming_dued_assignment.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/assignments/check_stats.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/assignments/check_upcoming_dued_assignment.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_shim.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/static_pages/contact.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/_user.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
-    </list>
+    <list default="true" id="d4e69c74-3deb-4a32-a4d4-a18289e5f65f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -105,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/assignments/_assignment.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="70" lean-forward="true" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
+              <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -114,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="223">
-              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -354,6 +337,12 @@
             <path>
               <item name="TLFS" type="b2602c69:ProjectViewProjectNode" />
               <item name="TLFS" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="environments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TLFS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TLFS" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -546,12 +535,12 @@
       <workItem from="1529546466311" duration="14968000" />
       <workItem from="1529566668410" duration="11291000" />
       <workItem from="1529816339217" duration="606000" />
-      <workItem from="1529914660122" duration="70476000" />
+      <workItem from="1529914660122" duration="71082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108342000" />
+    <option name="totallyTimeSpent" value="108948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="781" height="830" extended-state="0" />
@@ -561,8 +550,8 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49878934" visible="true" weight="0.3319149" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34680575" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49878934" visible="true" weight="0.3319149" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34680575" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32765958" />
@@ -866,14 +855,14 @@
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/assignments/_assignment.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="70" lean-forward="true" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
+          <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
         </state>
       </provider>
     </entry>
