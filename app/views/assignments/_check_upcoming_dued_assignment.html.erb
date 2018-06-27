@@ -1,4 +1,19 @@
-<div class="list-group" , id="upcoming_dued">
-<%= link_to 'test', check_upcoming_dued_assignment_path, :remote => true, class: "list-group-item" %>
-<%#= link_to "test_item", check_upcoming_dued_assignment, :remote => true, class: "list-group-item" %>
-</div>
+<% if @upcomming_dued_assignment %>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">Title</th>
+        <th scope="col">Due Date</th>
+      </tr>
+    </thead>
+    <% @upcomming_dued_assignment.each do |assignment| %>
+    <tbody>
+      <tr id='<%= assignment.id %>'>
+        <td><%= link_to assignment.title, edit_assignment_path(assignment)%></td>
+        <td><%= assignment.due_date %></td>
+      </tr>
+    </tbody>
+    <% end %>
+
+  </table>
+<% end%>

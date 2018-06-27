@@ -1,0 +1,7 @@
+<li>
+  <tr>
+    <td><%= label_tag(assignment.title, assignment.title) %></td> |
+    <td><%= link_to 'Edit', edit_assignment_path(assignment) %></td> |
+    <td><%= link_to 'Delete', assignment, method: :delete, data: { confirm: 'Are you sure?' } %></td>  |
+  </tr>
+</li>

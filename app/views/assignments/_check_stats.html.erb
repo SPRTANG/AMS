@@ -1,0 +1,14 @@
+<% if @totalAssignments || @noncompletedAssignment %>
+  <table class="table table-bordered">
+      <tbody>
+      <tr>
+        <td scope="col">Total Assignment</td>
+        <td><%= @totalAssignments %></td>
+      </tr>
+      <tr>
+        <td scope="col">Not completed Assignment</td>
+        <td><%= @noncompletedAssignment %></td>
+      </tr>
+      </tbody>
+  </table>
+<% end%>

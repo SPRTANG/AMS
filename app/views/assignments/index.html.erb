@@ -1,0 +1,16 @@
+<% provide(:title, 'All assignments') %>
+<% provide(:button_text, 'New assignment') %>
+<h1>All assignments</h1>
+
+<%= will_paginate %>
+
+<ul class="assignments">
+    <%= render @assignments %>
+</ul>
+
+<%= will_paginate %>
+
+<br>
+<div class="center">
+  <%= button_to yield(:button_text), new_assignment_path, class: "btn btn-primary" %>
+</div>

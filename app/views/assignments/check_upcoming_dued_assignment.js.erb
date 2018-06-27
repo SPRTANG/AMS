@@ -1,2 +1,1 @@
-<!--$('#upcoming_dued').html("#{escape_javascript(render 'upcoming_dued_assignment', data: @@upcomming_dued_assignment)}");-->
-$('#upcoming_dued').html("<%= link_to 'testing' %>");
+$('#upcoming_dued').html("<%= escape_javascript (render partial: 'check_upcoming_dued_assignment', locals: {upcomming_dued_assignment: @upcomming_dued_assignment}) %>");
