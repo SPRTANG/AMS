@@ -11,10 +11,12 @@
 // about supported directives.
 //
 //= require jquery
-//= require bootstrap
+//= require jquery_ujs
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//= require_tree .
+//= require bootstrap
 //= require froala_editor.min.js
 
 //= require plugins/align.min.js
@@ -46,4 +48,3 @@
 //= require languages/ro.js
 //= require bootstrap-datepicker
 //= require bootstrap2-toggle
-//= require_tree .
