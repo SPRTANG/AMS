@@ -39,6 +39,7 @@ gem 'carrierwave', '~> 1.0'
 gem 'bootstrap-datepicker-rails'
 gem 'bootstrap-toggle-rails'
 gem 'responders'
+gem 'rails_12factor'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
