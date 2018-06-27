@@ -50,6 +50,6 @@ test:
 #
 production:
   <<: *default
-  database: TLFS_production
-  username: TLFS
-  password: <%= ENV['TLFS_DATABASE_PASSWORD'] %>
+  database: heroku_5d61471ff386bdd
+  username: 'bb344230288812'
+  password: 'a92f5590'
