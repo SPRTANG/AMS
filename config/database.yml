@@ -20,7 +20,10 @@ default: &default
 
 development:
   <<: *default
-  database: heroku_5d61471ff386bdd
+  host: 127.0.0.1
+  username: root
+  password: '123987'
+  database: TLFS_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
