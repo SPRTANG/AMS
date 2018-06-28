@@ -10,13 +10,15 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require bootstrap
+//= require bootstrap-datepicker
+//= require bootstrap2-toggle
 //= require jquery
 //= require jquery_ujs
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
 //= require_tree .
-//= require bootstrap
 //= require froala_editor.min.js
 
 //= require plugins/align.min.js
@@ -46,5 +48,3 @@
 //= require third_party/embedly.min.js
 //= require third_party/image_aviary.min.js
 //= require languages/ro.js
-//= require bootstrap-datepicker
-//= require bootstrap2-toggle
