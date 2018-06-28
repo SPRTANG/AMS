@@ -16,7 +16,7 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 gem 'duktape'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.2'
+#gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -26,18 +26,18 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
-gem 'bootstrap-sass', '~> 3.3.7'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'rails-ujs', '~> 0.1.0'
+gem 'bootstrap-sass', '~> 3.3.7'
+gem 'bootstrap-will_paginate', '~> 1.0.0'
+gem 'bootstrap-datepicker-rails'
+gem 'bootstrap-toggle-rails'
 gem 'faker',  '~> 1.7.3'
 gem 'i18n', '~> 0.7'
 gem 'will_paginate',           '~> 3.1.6'
-gem 'bootstrap-will_paginate', '~> 1.0.0'
 gem 'wysiwyg-rails'
 gem 'font-awesome-rails'
 gem 'carrierwave', '~> 1.0'
-gem 'bootstrap-datepicker-rails'
-gem 'bootstrap-toggle-rails'
 gem 'responders'
 gem 'rails_12factor'
 
