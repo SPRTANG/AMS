@@ -6,7 +6,12 @@ class AssignmentsController < ApplicationController
   # GET /assignments
   # GET /assignments.json
   def index
-    @assignments = current_user.assignments.paginate(page: params[:page])
+    @assignments = if params[:term]
+               @assignments = current_user.assignments.where('title LIKE ?', "%#{params[:term]}%").order('id DESC').paginate(page: params[:page])
+             else
+               @assignments = current_user.assignments.paginate(page: params[:page])
+             end
+
   end
 
   # GET /assignments/1
@@ -111,7 +116,7 @@ class AssignmentsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def assignment_params
       # params.fetch(:assignment, {})
-      params.require(:assignment).permit(:content, :title, :attachment_path, :due_date, :is_submitted, :user_id)
+      params.require(:assignment).permit(:content, :title, :attachment_path, :due_date, :is_submitted, :user_id, :term)
     end
 
 

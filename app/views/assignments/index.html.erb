@@ -2,6 +2,13 @@
 <% provide(:button_text, 'New assignment') %>
 <h1>All assignments</h1>
 
+<%= form_tag(@assignment, method: :get) do %>
+  <%= text_field_tag :term, params[:term], class: "form-control" %>
+  <%= submit_tag 'Search' , name: nil, class: "btn btn-primary" %>
+<% end %>
+
+<br>
+
 <%= will_paginate %>
 
 <ul class="assignments">
