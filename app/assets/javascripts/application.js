@@ -13,12 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require rails-ujs
+//= require_tree .
 //= require bootstrap
 //= require bootstrap-datepicker
 //= require bootstrap2-toggle
 //= require activestorage
 //= require turbolinks
-//= require_tree .
 //= require froala_editor.min.js
 
 //= require plugins/align.min.js
